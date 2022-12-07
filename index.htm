@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- Web Page Design by James Koster - http://www.jameskoster.co.uk -->
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Raymond van Bommel</title>
+<link href="css/1.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+<script type='text/javascript' src='./jquery/jquery-1.12.0.min.js'></script>
+<script type='text/javascript' src='./jquery/jquery.rot13.min.js'></script>
+<!-- E-mailadres verbergen, met dank aan Stefan van der Lugt -->
+<script type='text/javascript'>
+	$(document).ready(function(){
+		$('a.hidemail').click(function(event){
+			event.preventDefault();
+			var addr = $.rot13('obzzry@zvg.rqh');
+			$(this).unbind('click').attr('href','mailto:'+addr).attr('class','').text(addr);
+		});
+	});
+</script>
+</head>
+
+<body>
+<a name="top" id="top"></a>
+<center>
+		<div id="menu">
+			<h1>Raymond van Bommel</h1>
+		</div>
+		
+		<div id="header">
+				Research scientist at Massachusetts Institute of Technology<br />
+				for the <a href="https://simonscollab.icerm.brown.edu/">Simons Collaboration on Arithmetic Geometry, Number Theory, and Computation</a>				
+		</div>
+		
+		<div id="content">
+				
+
+				
+				<div id="sidebar">
+						<h1>Menu</h1>
+						<div class="submenu">
+								<a href="#contact">Contact details</a>				  
+								<a href="#publications">Publications</a>				
+								<a href="#talks">Talks</a>	
+								<a href="#other_texts">Other mathematical texts</a>
+								<a href="#teaching">Teaching</a>	
+								<a href="#seminar">Seminars</a>						 
+						</div>
+				</div>
+				
+				<div id="mainbar">
+						<h1><a name="contact" id="contact"></a>Contact details</h1>
+						<p>
+							<img src="foto.jpg" alt="picture of me" width="300px" /><br />
+								Office: MIT campus, building 2, office 2-336 (directions are <a href="https://math.mit.edu/about/directions.php">here</a>)<br />
+								E-mail: <tt><a class="hidemail">click here</a></tt><br />
+								Public key: <tt><a href="VanBommel.asc">click here</a></tt><br />
+								Mail address: 77 Massachusetts Avenue, Cambridge, MA 02139, United States<br />
+								Telephone: +1 617-253-2683 (secretary of the institute)
+						</p>
+
+						<h1><a name="publications" id="publications"></a>Publications</h1>
+
+						<ul>
+							<li><a href="https://arxiv.org/abs/2106.13651">&#8220;Abelian varieties of prescribed order over finite fields&#8221;</a> (preprint, joint with Edgar Costa, Wanlin Li, Bjorn Poonen, and Alexander Smith)</li>
+							<li><a href="https://doi.org/10.1112/blms.12604">&#8220;A user&apos;s guide to the local arithmetic of hyperelliptic curves&#8221;</a> (published in Bulletin of the London Mathematical Society, joint with Alex J. Best, L. Alexander Betts, Matthew Bisatt, Vladimir Dokchitser, Omri Faraggi, Sabrina Kunzweiler, C&eacute;line Maistret, Adam Morgan, Simone Muselli, and Sarah Nowell)</li>
+							<li><a href="https://www.doi.org/10.1007/978-3-030-80914-0_6">&#8220;Efficient computation of BSD invariants in genus 2&#8221;</a> (published in Simons Symposia, Arithmetic Geometry, Number Theory, and Computation)</li>
+							<li><a href="https://arxiv.org/abs/1907.11225">&#8220;Boundedness in families with applications to arithmetic hyperbolicity&#8221;</a> (preprint, joint with Ariyan Javanpeykar and Ljudmila Kamenova)</li>
+							<li><a href="https://doi.org/10.1090/mcom/3441">&#8220;Explicit arithmetic intersection theory and computation of N&eacute;ron-Tate heights&#8221;</a> (published in Math. Comp., preprint on <a href="https://arxiv.org/abs/1809.06791">ArXiv</a>, joint with David Holmes and Steffen M&uuml;ller)</li>
+							<li><a href="https://hdl.handle.net/1887/66673">&#8220;Models of curves: The Birch and Swinnerton-Dyer conjecture &amp; ordinary reduction&#8221;</a>, PhD thesis</li>
+							<li><a href="https://doi.org/10.1007/s00013-019-01383-w">&#8220;The Birch and Swinnerton-Dyer conjecture for an elliptic curve over &#x0211A;(&#8732;5)&#8221;</a> (published in Arch. Math., preprint on <a href="https://arxiv.org/abs/1805.05862">ArXiv</a>)</li>
+							<li><a href="https://doi.org/10.1080/10586458.2019.1592035">&#8220;Numerical verification of the Birch and Swinnerton-Dyer conjecture for hyperelliptic curves of higher genus over &#x0211A; up to squares&#8221;</a> (published in Exp. Math., preprint on <a href="https://arxiv.org/abs/1711.10409">ArXiv</a>)</li>
+							<li><a href="https://doi.org/10.1142/S1793042118500811">&#8220;Inverse Galois problem for ordinary curves&#8221;</a> (published in IJNT, preprint on <a href="https://arxiv.org/abs/1704.07608">ArXiv</a>)</li>
+						</ul>
+
+						<h1><a name="talks" id="talks"></a>Talks</h1>
+						<ul>
+							<li><a href="talks/Linfoot.pdf">&#8220;Abelian varieties of prescribed order&#8221;</a>, Linfoot Number Theory Seminars, December 2021</li>
+							<li><a href="talks/Leiden2020.pdf">&#8220;Computation of BSD invariants in higher genus&#8221;</a>, Algebra, geometry and number theory seminar, Leiden, December 2020</li>
+							<li><a href="talks/BombieriStepanov.pdf">&#8220;The Bombieri-Stepanov approach to the Riemann hypothesis for curves over finite fields&#8221;</a>, <a href="https://math.mit.edu/nt/index_stage.html">STAGE</a>, November 2020</li>
+							<li><a href="talks/vantage.pdf">&#8220;Cluster pictures for hyperelliptic curves&#8221;</a>, VaNTAGe seminar, November 2020 (<a href="https://www.youtube.com/watch?v=_fIJVnVnpz8">video</a>)</li>
+							<li>&#8220;Boundedness in families of projective varieties with applications to arithmetic hyperbolicity&#8221;, BU number theory seminar, Boston University, January 2020</li>
+							<li><a href="talks/JMM_2020.pdf">&#8220;Explicit arithmetic intersection theory and computation of N&eacute;ron-Tate heights&#8221;</a>, Joint mathematics meeting, Denver, January 2020</li>
+							<li>&#8220;Boundedness in families of projective varieties with applications to arithmetic hyperbolicity&#8221;, Number theory seminar, MIT, Autumn 2019</li>
+							<li><a href="talks/SFB2.pdf">&#8220;Boundedness in families of projective varieties with
+applications to arithmetic hyperbolicity&#8221;</a>, SFB Kolloquium, Mainz, Summer 2019</li>
+							<li><a href="talks/Kobayashi.pdf">&#8220;Kwack's theorem and its applications&#8221;</a>, Seminar: Algebraic properties of hyperbolic varieties, Mainz, Winter 2018/2019</li>
+							<li>&#8220;De Rham cohomology for physicists&#8221;, joint seminar between mathematics and physics, Mainz, Winter 2018/2019</li>
+							<li><a href="talks/SFB1.pdf">&#8220;How to compute regulators using Arakelov intersection theory&#8221;</a>, SFB Kolloquium, Mainz, Autumn 2018</li>
+							<li><a href="talks/Trieste1.pdf">&#8220;Numerical verification of BSD&#8221;</a>, <a href="https://people.maths.bris.ac.uk/~matyd/Trieste2017.html">Curves and L-functions, Trieste</a>, September 2017</a></li>
+							<li><a href="talks/modelsofcurves.pdf">&#8220;Models of curves&#8221;</a>, N&eacute;ron model seminar, Leiden, Autumn 2017</li>
+							<li><a href="talks/Bristol1.pdf">&#8220;Numerical verification of BSD&#8221;</a>, <a href="https://people.maths.bris.ac.uk/~matyd/BSDData/">BSD Data &#64; Bristol</a>, March 2017</li> 
+							<li><a href="talks/duality_av.pdf">&#8220;Duality of abelian varieties&#8221;</a>, Good Reduction of Abelian Varieties seminar, Amsterdam, Autumn 2016</li>
+							<li><a href="talks/Leiden1.pdf">&#8220;Inverse Galois problem for ordinary curves: construction of some examples&#8221;</a>, Algebra seminar, Leiden, Autumn 2016</li>
+							<li><a href="talks/bsdtalk.pdf">&#8220;The Birch and Swinnerton-Dyer conjecture&#8221;</a>, Seminar on rational points on elliptic curves, Leiden, Spring 2016</li>
+							<li><a href="talks/algant_essen.pdf">&#8220;N&eacute;ron models&#8221;</a>, joint with M. Derickx, G. Orecchia, M. Tzortzakis, ALGANT presentation, Essen, Spring 2016</li>		
+							<li><a href="talks/modstack2.pdf">&#8220;The algebraic stack Mg&#8221;</a>, Moduli stacks seminar, Leiden, Autumn 2015</li>
+							<li><a href="talks/padic1.pdf">&#8220;The Grothendieck monodromy theorem&#8221;</a>, Local Galois representations seminar, Leiden, Spring 2015</li>
+							<li><a href="talks/etale3.pdf">&#8220;Cohomology on quasi-coherents, torsors, H1 and
+the Picard group&#8221;</a>, Etale cohomology seminar, Leiden, Autumn 2014</li>	
+							<li><a href="talks/Tannaka.pdf">&#8220;Jordan decomposition and Tannaka duality&#8221;</a>, Master student seminar, Paris-Sud, Spring 2013.</li>			
+						</ul>	
+
+						<h1><a name="other_texts" id="other_texts"></a>Other mathematical texts</h1>
+										<ul>
+							<li><a href="Pythagoras_Wie_is_de_dief.pdf">&#8220;Wie is de dief?&#8221;</a>, Pythagoras (April 2016)</li>
+							<li><a href="Master.pdf">&#8220;Almost all hyperelliptic Jacobians have a bad semi-abelian prime&#8221;</a>, master's thesis (2014)</li>
+							<li><a href="TER.pdf">&#8220;The Grothendieck group of GL(n)&#8221;</a>, Travaux encadr&eacute; de recherche (2013)</li>
+							<li><a href="Bachelor.pdf">&#8220;Using the Chebotarev density theorem to calculate the size of Galois groups&#8221;</a>, bachelor's thesis (2012)</li>
+							<li><a href="Pythagoras_Reekssommen_en_tweemachten.pdf">&#8220;Reekssommen en tweemachten&#8221;</a>, Pythagoras (November 2010)</li>
+							<li><a href="lpc-artikel.pdf">&#8220;Dualiteit&#8221;</a>, Dutch article for the second year student seminar LPC (April 2010)</li>
+						</ul>
+					
+						<h1><a name="teaching" id="teaching"></a>Teaching</h1>
+												
+														<ul>
+								<li>Autumn 2021: <a href="https://math.mit.edu/classes/18.721/Fall2021/">Introduction To Algebraic Geometry (18.721)</a> (Massachusetts Institute of Technology)</li>
+								<li>Summer 2019: <a href="https://www.mathematik.uni-mainz.de/lehrveranstaltungen/?event_id=366564671866814">Computeralgebra</a> (Johannes Gutenberg-Universit&auml;t Mainz)</li>
+								<li>Winter 2018/2019: <a href="https://ilias.uni-mainz.de/goto.php?client_id=JOGU&target=crs_634588">Zahlentheorie</a> (Johannes Gutenberg-Universit&auml;t Mainz)</li>
+								<li>Spring 2018: <a href="https://studiegids.leidenuniv.nl/en/courses/show/74021/mathematical-reasoning">Mathematical Reasoning</a> (Leiden University College)</li>
+								<li>Autumn 2017: <a href="https://pub.math.leidenuniv.nl/~griffonrmm/CFF.html">Curves over Finite Fields</a> (<a href="LectureNotes_CodingTheory.pdf">notes coding theory</a>, <a href="LectureNotes_EllipticCurveCryptography.pdf">notes elliptic curve crypto</a>, <a href="Homework3.pdf">homework 3</a> (small typo has been corrected on 6 December), Universiteit Leiden)</li>
+								<li>Spring 2017: <a href="https://studiegids.leidenuniv.nl/en/courses/show/62715/Mathematical-Reasoning">Mathematical Reasoning</a> (Leiden University College)</li>
+								<li>Autumn 2016 &amp; Spring 2017: <a href="http://pub.math.leidenuniv.nl/~lyczakjt/teaching/wwt1617.html">Wiskundewedstrijdtraining</a> (Universiteit Leiden)</li>
+								<li>Autumn 2016: Wiskundige Structuren (Universiteit Leiden)</li>
+								<li>Autumn 2016: <a href="http://pub.math.leidenuniv.nl/~edixhovensj/teaching/2016-2017/LA1/index.html">Lineaire Algebra I voor wiskunde</a> (Universiteit Leiden)</li>
+								<li>Spring 2016: <a href="http://www.few.vu.nl/~sdn249/modularforms16/index.html">Modular Forms</a> (Mastermath)</li>
+								<li>Autumn 2015 &amp; Spring 2016: <a href="http://pub.math.leidenuniv.nl/~lyczakjt/teaching/wwtnj2015.html">Wiskundewedstrijdtraining</a> (Universiteit Leiden)</li>							
+								<li>Autumn 2015: <a href="https://studiegids.leidenuniv.nl/courses/show/46915/statistiek_lst">Statistiek voor Life Science and Technology</a> (Universiteit Leiden)</li>				
+								<li>Spring 2015: <a href="http://pub.math.leidenuniv.nl/~lyczakjt/teaching/wwtvj2015.html">Wiskundewedstrijdtraining</a></li>							
+								<li>Autumn 2014: <a href="http://www.math.leidenuniv.nl/~desmit/edu/ant_2014/">Algebraic Number Theory</a> (Mastermath)</li>
+								<li>Spring 2014: <a href="http://pub.math.leidenuniv.nl/~edixhovensj/teaching/2013-2014/algebra3/">Algebra 3</a> (Universiteit Leiden)</li>
+								<li>Autumn 2013: Introduction to Manifolds (Universiteit Leiden) &amp; Besliskunde 2 (Universiteit Leiden)</li>
+								<li>Spring 2012: Numerieke Methoden 1 (Universiteit Leiden)</li>
+								<li>Autumn 2011: <a href="http://pub.math.leidenuniv.nl/~jongrsde/olderteaching/LA1NA2011/">Lineaire Algebra 1 voor Natuur- en Sterrenkundigen</a> (Universiteit Leiden)</li></ul>
+						
+						<h1><a name="seminar" id="seminar"></a>Seminars</h1>
+							<ul>
+							<li><a href="https://www.ntwebseminar.org/">Number Theory Web Seminar</a> (Continuously, online)</li>
+							<li><a href="https://sites.google.com/view/vantageseminar">VaNTAGe</a> (Continuously, online)</li>
+							<li><a href="https://math.mit.edu/nt/">MIT number theorey seminar</a> (Continuously, MIT)</li>
+							<li><a href="https://math.mit.edu/nt/">STAGE</a> (Continuously, MIT)</li>
+							<li><a href="http://www.staff.uni-mainz.de/dfesti/QuantumSeminar.html">Quantum computation and quantum information seminar</a> (Summer 2019, Mainz, organising)</li>
+							<li><a href="https://www.agtz.mathematik.uni-mainz.de/seminar-algebraic-properties-of-hyperbolic-varieties/">Seminar: Algebraic properties of hyperbolic varieties</a> (Winter 2018/2019, Mainz)</li>
+							<li><a href="https://www.agtz.mathematik.uni-mainz.de/aktuelles/sfbtrr45-kolloquium/">SFB/TRR45 Kolloquium</a> (Continuously, Mainz)</li>
+							<li><a href="http://pub.math.leidenuniv.nl/~winterrl/TropicalGeometry.html">Tropical geometry seminar</a> (Spring 2018, Leiden)</li>
+							<li><a href="http://pub.math.leidenuniv.nl/~akeyrgj/neron.html">N&eacute;ron models seminar</a> (Autumn 2017, Leiden)</li>
+							<li><a href="http://pub.math.leidenuniv.nl/~akeyrgj/seminar.html">Logarithmic Geometry seminar</a> (Spring 2017, Leiden)</li>
+							<li><a href="https://staff.fnwi.uva.nl/w.p.bindt/seminar.html">Good Reduction of Abelian Varieties seminar</a> (Autumn 2016, Amsterdam)</li>
+							<li><a href="https://staff.fnwi.uva.nl/a.l.kret/seminar.html">Arithmetic and Algebraic Geometry Seminar</a> (Autumn 2016, Amsterdam)</a></li>
+							<li><a href="http://www.math.leidenuniv.nl/~streng/calendar/">Rational points on elliptic curves</a> (Spring 2016, Leiden)</li>
+							<li><a href="http://pub.math.leidenuniv.nl/~lyczakjt/seminar/knots2016.html">Knot theory</a> (Spring 2016, Leiden)</li>
+							<li><a href="https://shotanimoto.wordpress.com/">Copenhagen K3-surfaces</a> (Autumn 2015, Copenhagen)</li>
+							<li><a href="http://www.math.ku.dk/english/research/tfa/alg/ntseminar/">Copenhagen number theory</a> (Autumn 2015, Copenhagen)</li>
+							<li><a href="2015/modstack.htm">Moduli stacks</a> (Autumn 2015, organising, Leiden)</li>
+							<li><a href="http://pub.math.leidenuniv.nl/~vissehd/k3seminar/">K3 surfaces and their automorphisms</a> (Autumn 2014 / Spring 2015, Leiden)</li>
+							<li>Local Galois representations (Spring 2015)</li>
+							<li><a href="http://jinbijin.nl/2014/ec/">&Eacute;tale cohomology</a> (Autumn 2014, Leiden)</li>
+							<li><a href="http://pub.math.leidenuniv.nl/~strengtc/algseminar/">Algebra, geometry and number theory</a> (Continuously, Leiden)</li>
+							<li><a href="http://www.math.leidenuniv.nl/~desmit/ic/general.html">Intercity Number Theory</a> (Continuously, Leiden)</li>
+							<li><a href="http://pub.math.leidenuniv.nl/~strengtc/colloquium/">General Mathematics Colloquium</a> (Continuously, Leiden)</li>
+							</ul>
+										
+		  </div>
+		
+  </div>
+  <div id="footer">
+  </div>
+</center>
+</body>
+</html>
