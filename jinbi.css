@@ -1,0 +1,179 @@
+body {
+  font-family:"Palatino", serif;
+  background-color:#ffffff;
+  color:#4A7184;
+  line-height:140%;
+  margin:0px;
+  min-width:1024px;
+}
+
+header{
+  background-color:#003366;
+  color:#ffffff;
+  text-align:center;
+  padding-top:2.2ex;
+  padding-bottom:2.2ex;
+  width:100%;
+}
+
+nav{
+  background-color:#DFE3EE;
+  color:#4A7184;
+  font-size:8pt;
+  text-align:center;
+  padding-top:0ex;
+  padding-bottom:0ex;
+  width:100%;
+}
+
+nav.colorbar{
+  background-color:#003366;
+  height:0.5ex;
+  color:#ffffff;
+  text-align:center;
+}
+
+section{
+  color:#000000;
+  padding-top:5ex;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+section.header{
+  font-style:italic;
+  font-size:10pt;
+  margin-top:-5ex;
+}
+
+section.footer{
+  font-style:italic;
+  font-size:10pt;
+  margin-bottom:10ex;
+}
+
+ul{
+  margin-left:0.5em;
+  margin-right:0.5em;
+}
+
+p{
+  margin-left:0.5em;
+  margin-right:0.5em;
+}
+
+p.warning{
+  color:red;
+}
+
+.w3css{
+  float:right;
+}
+
+h4, h3, h2, b, th {
+  font-weight:bold;
+  color:#4A7184;
+}
+
+h1 {
+  font-size:24pt;
+  font-weight:normal;
+  margin:0ex;
+}
+
+h2 {
+  margin-top:-0.7ex;
+}
+
+h3 {
+  margin-left:0.5em;
+  margin-right:0.5em;
+}
+
+.anchor {
+  position: relative;
+  top: 0ex;
+}
+
+a:link {
+  color:#223366;
+}
+a:visited {
+  color:#777777;
+}
+
+table {
+  border-collapse:collapse;
+  table-layout:fixed;
+  margin-left:-0.5em;
+  width:100%;
+}
+
+td {
+  padding:1em;
+}
+
+col#alg_title {
+  background-color:#DFE3EE;
+  border:1px solid #DFE3EE;
+}
+
+col#alg_ex2 {
+  background-color:#DFE3EE;
+  border:1px solid #DFE3EE;
+}
+
+col#alg_ex0 {
+  background-color:#DFE3EE;
+  border:1px solid #DFE3EE;
+}
+
+col#efg_name {
+  background-color:#DFE3EE;
+  border:1px solid #DFE3EE;
+}
+
+col#ec_name {
+  background-color:#DFE3EE;
+  border:1px solid #DFE3EE;
+}
+
+col.title1 {
+  width:85%;
+}
+
+col.title2 {
+  width:60%;
+}
+
+col.title3 {
+  width:30%;
+}
+
+col.title4 {
+  width:25%;
+}
+
+col.date {
+  width:15%;
+}
+
+col.name {
+  width:25%;
+}
+
+mark.ext {
+  position: relative;
+  background-color:transparent;
+  top: -0.5em;
+  font-size: .83em; 
+  font-style:italic;
+}
+
+mark.n {
+  position: relative;
+  background-color:transparent;
+  top: -0.3em;
+  font-size: .9em;
+  font-style:italic;
+}
