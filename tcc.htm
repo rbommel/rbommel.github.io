@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- Web Page Design by James Koster - http://www.jameskoster.co.uk -->
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>TCC - The Birch and Swinnerton-Dyer conjecture explained</title>
+<link href="css/1.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+<script type='text/javascript' src='./jquery/jquery-1.12.0.min.js'></script>
+<script type='text/javascript' src='./jquery/jquery.rot13.min.js'></script>
+<!-- E-mailadres verbergen, met dank aan Stefan van der Lugt -->
+<script type='text/javascript'>
+	$(document).ready(function(){
+		$('a.hidemail').click(function(event){
+			event.preventDefault();
+			var addr = $.rot13('obzzry@zvg.rqh');
+			$(this).unbind('click').attr('href','mailto:'+addr).attr('class','').text(addr);
+		});
+	});
+</script>
+</head>
+
+<body>
+<a name="top" id="top"></a>
+<center>
+		<div id="menu">
+			<h1>The Birch and Swinnerton-Dyer conjecture explained</h1>
+		</div>
+		
+		
+		<div id="content">
+			
+				<!-- <div id="sidebar">
+						<h1>Menu</h1>
+						<div class="submenu">
+								<a href="#blah">Blah</a>			 
+						</div>
+				</div>-->
+				
+				<!--<div id="header">
+					TCC course.
+				</div>-->
+				
+				<div id="mainbar">
+						<h1><a name="practical" id="practical"></a>Practical information</h1>
+						
+						This course takes place on Thursday between 14:00 and 16:00 in room G.11 of the Fry Building in Bristol, and online on Teams (registration information <a href="https://www.maths.ox.ac.uk/groups/tcc">here</a>) from 1 May up to 26 June 2025, with no course on 12 June.<br /><br />				
+						Questions, comments, and remarks are encouraged.
+						My contact details are on my <a href="index.htm">main page</a>.
+						In case you are in need of an assessment for this course, please contact me immediately.
+						
+						<h1><a name="Abstract" id="abstract"></a>Abstract</h1>
+The Birch and Swinnerton-Dyer conjecture is a millennium problem originally stated for elliptic curves over the rationals and later generalised to abelian varieties over number fields. In this course, we will learn about the different geometric and arithmetic invariants that occur in the conjecture and their significance in the broader context of arithmetic geometry.
+				
+				<h1><a name="notes" id="notes"></a>Notes</h1>
+				You can find some notes <a href="https://www.dropbox.com/scl/fi/hy36ql9rf16ggd96ehrkv/TCC_course.pdf?rlkey=n2ipdtry6dbnqzumm52ftwrof&st=r954ouck">here</a>. This is work in progress and any errors in it are mine. Please feel encouraged to report such errors to me. Other suggestions are also welcome.
+				
+				<h1><a name="prerequisites" id="prerequisites"></a>Prerequisites</h1>
+				Certainly you don't need to know all of these topics to join the course, but if you do, it might help you connect it to other things you know about.
+				There might not be enough time in the course to discuss these topics in the full detail they deserve, so you might find it beneficial to read a bit about these topics yourself between the lectures.
+				<ul><li>Elliptic curves / abelian varieties (over the complex numbers, over number, local and finite fields)</li>
+				<li>Algebraic geometry (curves, schemes)</li>
+				<li>Number fields, local / p-adic fields (extensions, Galois theory, class groups)</li>
+				<li>Cohomology (sheaf cohomology, group cohomology, Galois cohomology)</li></ul>
+				
+				
+				<h1><a name="topics" id="topics"></a>Possible topics</h1>
+				There is a good chance that I won't be able to cover all these topics in detail, but below you can find a list of topics I am considering.
+				<ul><li>Introduction to the conjecture and abelian varieties (lecture 1)</li>
+				<li>Models of curves and abelian varieties</li>
+				<li>Periods and N&eacute;ron differential</li>
+				<li>Regulators, heights, and Arakelov theory</li>
+				<li>Tamagawa numbers</li>
+				<li>Algebraic rank, descent, and Chabauty</li>
+				<li>Tate-Shafarevich group, Selmer groups, local-global principle, torsors and H1</li>
+				<li>L-functions, Tate module, and conductor</li>
+				<li>Known results: Coates-Wiles, Gross-Zagier, Kolyvagin, Heegner points</li>
+				</ul>
+		  </div>
+		
+  </div>
+  <div id="footer">
+  </div>
+</center>
+</body>
+</html>
